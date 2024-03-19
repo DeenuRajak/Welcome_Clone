@@ -30,12 +30,12 @@ birds.forEach((bird, index) => {
 
            if(direction == "right"){
             direction = "left";
-            bird.src ="img/left-bird.webp";
+            bird.src ="./img/left-bird.webp";
            }
 
            else if(direction == "left"){
             direction = "right";
-            bird.src ="img/Right-bird.png";
+            bird.src ="./img/Right-bird.png";
            }
         }
 
